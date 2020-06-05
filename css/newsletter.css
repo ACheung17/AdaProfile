@@ -1,0 +1,15 @@
+.projectP {
+    font-size: 22px;
+    padding: 2rem 0;
+}
+
+.container {
+    padding: 5rem 4rem;
+}
+
+projectImg {
+    display: block;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}

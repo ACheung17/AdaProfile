@@ -1,0 +1,208 @@
+/* Headings */
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    /* position: relative; */
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 1.75;   
+}
+h1 {
+    color: #545454;
+    font-family: 'Lobster';
+    font-size: 7.5rem;
+    margin-top: 0;
+}
+h2, h3{
+    font-family: 'Libre Baskerville';
+    padding-bottom: 3%;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+.centre-text {
+    text-align: center;
+    width: 80%;
+}
+/* p {
+    font-size: 1.75vw;
+} */
+
+/* Containers */
+.container {
+    padding: 7% 12% 8%;
+    width: 80%;
+}
+
+/* Alternating Sections*/
+.white-section {
+    color: #545454;
+}
+.colored-section {
+    background-color: #545454;
+    color: white;
+}
+
+/* Navigation Bar */
+.nav-link {
+    color: #696969;
+    font-weight: bold;
+}
+a.nav-link {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+/* Intro Section */
+#intro {
+    background-image: url(images/marble.jpg);
+    background-size: 100%;
+   
+}
+
+.intro-div {
+    padding: 15% 0;
+    text-align: center;
+}
+
+.intro-sub {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    position: relative;
+    left: 75px;
+}
+
+/* About Me Section */
+#aboutMe {
+    width: 55% auto;
+}
+
+/* Project Section */
+
+.carousel-item {
+    /* padding: 5% 10% 1%; */
+    text-align: center;
+}
+
+.tmp-slide {
+    padding: 22.70% 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.project-img {
+    margin: 0 auto;
+    width: 50%;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: 0.5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.carousel-item:hover .project-img {
+    opacity: 0.1;
+}
+
+.carousel-item:hover .middle{
+    opacity: 1;
+}
+
+h5 {
+    padding: 20px 0;
+}
+
+.img-description{
+    background-color: #d3d3d3;
+    color: white;
+    border: solid;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 3%;
+}
+
+/* Contact Section */
+.socials {
+    padding-top: 5%;
+}
+.social-icon {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #696969;
+}
+.far:hover{
+    color: black;
+}
+
+/* Footer Section */
+footer {
+    opacity: 0.25;
+    margin: 0;
+}
+footer p {
+    font-size: 1rem;
+}
+
+footer .container {
+    padding: 5% 0 3%;
+}
+
+/* Projects page styling */
+/* projects Navbar */
+body.proj h2 {
+font-size: 2rem;
+padding-bottom: 0;
+}
+
+nav a {
+    margin-left: 20px;
+}
+
+.navbar.bg-dark {
+    background-color: #545454;
+}
+
+.proj .nav-link {
+    color: white;
+}
+
+.projects h1 {
+    font-size: 3rem;
+}
+
+.projects p {
+    margin: 5% 0;
+    
+}
+
+.projects.container {
+    padding: 3rem 3rem;
+}
+
+.proj img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.projectImg {
+    width: 70%;    
+}
+
+.img2 {
+    width: 80%;
+}
