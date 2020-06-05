@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Subscription Project</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Lobster&family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="proj">
+    <nav class="navbar navbar-light bg-dark">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/AC-dark.png" width="40" height="40" alt="">
+        </a>
+        <a class="nav-link" href="#">More Projects</a>
+      </nav>
+    <div class="container projects">
+      <h2>Newsletter Subscription Application</h2>
+      <p class="projectP">
+        This is a newsletter subscription application that collects and stores
+        user's email, first and last name. Collected data is added to a mailing
+        list, and is managed my MailChimp's services.
+      </p>
+      <p class="projectP">
+        The front-end of the application is structured with HTML5 and styled
+        with CSS3/Bootstrap, while the back-end is done with Node.js along with
+        Express.js frameworks. To utilize MailChimp's services, the back-end is
+        connected to MailChimp's API to request for its services.
+      </p>
+      <p class="projectP">
+        The main page consists of three input fields to allow the user to
+        provide their data; one "Sign Me Up" button to allow submittion of
+        user's data; and a "Unsubscribe" button that allow subscribed members to
+        unsubscribe.
+      </p>
+      <img
+        class="projectImg"
+        src="images/signupPage.PNG"
+        alt="Newsletter Signup Page"
+      />
+      <p class="projectP">
+        After users provide their data through the input fields, and click the
+        "Sign Me Up" button. Feedback is provided to the user. A successful
+        feedback would be like this:
+      </p>
+      <img
+        class="img2"
+        src="images/successFeedback.PNG"
+        alt="Successfully subscribed"
+      />
+        <p class="projectP">
+          While an unsuccessful feedback would look like this: 
+        </p>
+        <img
+          class="img2"
+          src="images/failToSub.PNG"
+          alt="Fail to subscribe"
+        />
+        <p class="projectP">
+            A "Try Again" button is provided for the user to have easy access back to the 
+            main page for another try.
+        </p>
+        <p class="projectP">
+            When the "Unsubscribe" button is clicks, the user is lead to a page 
+            where they can provide the email that they would like to be unsubscribed from 
+            the from the mailing list. 
+        </p>
+        <img class="projectImg" src="images/unsubPage.PNG"/>
+        <p class="projectP">
+            Similiar to subscribing, unsubscribing also provides feedback to the user:
+        </p>
+        <img class="img2" src="images/successUnsub.PNG" />
+        <p class="projectP">In the case of an unsuccessful unsubscribing process, for example, 
+            providing a non-existing or mispelt email, will result in the 
+            following feedback message:</p>
+        <img class="img2" src="images/failToUnsub.PNG" alt="Fail to unsubscribe">
+      <p class="projectP">
+        Click the link to try it out:
+        <a href="https://polar-sands-98621.herokuapp.com/"
+          >https://polar-sands-98621.herokuapp.com/
+        </a>
+      </p></div>
+
+    <footer class="colored-section">
+      <div class="container centre-text">
+        <p>© Copyright 2020 Ada Cheung</p>
+      </div>
+    </footer>
+  </body>
+</html>
